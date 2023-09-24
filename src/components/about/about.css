@@ -1,0 +1,62 @@
+:root{
+    --boldcolor: rgb(90, 179, 151);
+    --aboutTextColor: rgb(222, 215, 215);
+}
+
+.about-background{
+    background-color:var(--fdeveloper);
+}
+
+.about-title{
+   margin-left: 8vw;
+   letter-spacing: 5px;
+   padding-top: 3rem;
+   padding-bottom: 2rem;
+
+}
+
+.about-title h1{
+    font-size:4rem;
+    color:whitesmoke;
+    font-weight: bold;
+}
+
+
+.about-text{
+    margin-bottom: 3rem;
+    margin-left: 9%;
+    margin-right: auto;
+    width:75%;
+    line-height:2rem;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-family: Raleway, sans-serif;
+    color:var(--aboutTextColor);
+}
+
+.last-line{
+    padding-bottom: 5rem;
+}
+
+.bold{
+    font-weight: bold;
+    color:var(--boldcolor);
+}
+
+
+@media screen and (max-width:900px){
+    .about-title h1{
+        font-size: 3rem;
+    }
+    .about-text{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:700px){
+    .about-title h1{
+        font-size: 2.5rem;
+    }
+
+}
