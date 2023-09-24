@@ -1,0 +1,297 @@
+:root{
+    --lilla: rgb(78, 30, 76);
+    --fdeveloper :rgb(33, 72, 64);
+    --fDeveloperLight:rgba(33, 72, 64, 0.6);
+    --seeMyWorksHover:rgb(24, 247, 143);
+    --boxShadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+.background{
+    background-image: url('../../images/homepng.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width:100%;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+   
+}
+
+.title{
+    position: absolute;
+    top:35vh;
+    left:5vw;
+}
+
+.title h1{
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color:rgb(40, 48, 46);
+}
+
+.short-text h6{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Caveat', sans-serif;
+    
+}
+
+.lilla{
+    color:var(--lilla);
+}
+
+.frontend-developer{
+    color:var(--fdeveloper);
+    text-shadow: 3px 3px 0px rgba(89, 0, 100, 0.3);
+}
+
+.social-icon{
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.social-icon:hover {
+    transform: translateY(-5px); /* Moving up by hover */
+  }
+
+
+  .social-icon:not(:hover) {
+    transition: transform 0.3s ease-in-out; /* Stop hover */
+    transform: translateY(0); /* back to original state */
+  }
+
+
+.font-face{
+    color: #0073e6;
+    font-size: 3.2rem;
+}
+
+.font-linkedin{
+    color: #072340;
+    font-size: 3.2rem;
+}
+
+.font-github{
+    font-size: 3.2rem;
+    color: black; 
+}
+
+
+.profil-img{
+    display: none;
+}
+
+.button-works{
+    display: none;
+    cursor: pointer;
+    
+}
+
+
+
+
+/* media queries----------------------------------------------------------------------------------------------*/
+
+
+
+@media only screen and (max-width: 1080px) {
+    .title h1{
+        font-size: 3rem;
+    } 
+
+    .background{
+        background-position: right;
+    }
+}
+
+
+@media only screen and (max-width: 1020px) {
+
+    .title{
+        left:2vw;
+    }
+
+
+    .title h1{
+        font-size: 2.8rem;
+    }
+
+    .short-text h6{
+        font-size: 1.5rem;
+    }
+
+}
+
+
+/*BURGER MENU displaying ITS IN NAV CSS!!!--------------------------------------*/
+
+@media only screen and (max-width: 900px) {
+
+   .background{
+    background-image: none;
+   }
+
+   .title{
+    left:19vw;
+    top:57vh;
+   }
+
+   .title h1{
+    font-size: 2.5rem;
+    text-align: center;
+   }
+
+   .short-text {
+    text-align: center;
+   }
+
+   .font-face,
+   .font-linkedin,
+   .font-github{
+    font-size: 2.6rem;
+   }
+
+   .profil-img{
+    display:block;
+   }
+
+   .profil-pics{
+    position: absolute;
+    top:3vh;
+    width:400px;
+    height:450px;
+    margin-left:25%;
+    margin-right:auto;
+    z-index: 0;
+   }
+
+   .font-awesome{
+    text-align: center;
+   }
+
+   
+}
+
+
+@media only screen and (max-width: 700px){
+    .profil-pics{
+        width:350px;
+        height:400px;
+        margin-left:25%;
+        margin-right:auto;
+       }
+    
+        .title{
+            top:53vh;
+        }
+
+       .title h1{
+        font-size: 2rem;
+       }
+
+}
+
+@media only screen and (max-width: 600px){
+    .profil-pics{
+        width:320px;
+        height:370px;
+        margin-left:25%;
+        margin-right:auto;
+       }
+
+       .title{
+        top:50vh;
+       }
+
+       .title h1{
+        font-size: 1.7rem;
+       }
+
+        .font-face,
+        .font-linkedin,
+        .font-github {
+        font-size: 1.9rem;
+       }
+    
+}
+
+
+
+/*New button comes in (see my works)!!-------------------------------------------------*/ 
+@media only screen and (max-width: 500px){
+    .profil-pics{
+        width:260px;
+        height:300px;
+        margin-left:25%;
+        margin-right:auto;
+       }
+
+       .title{
+        top:40vh;
+        left:10vw;
+       }
+
+       .button-works{
+        display: block;
+        background-color: var(--fdeveloper);
+        color:white;
+        text-transform: uppercase;
+       }
+
+       .button-works:hover{
+        background-color:var(--fDeveloperLight);
+        color:rgb(24, 247, 143);
+        border:2px solid var(--fdeveloper);
+        box-shadow: var(--boxShadow);
+       }
+
+       .short-text h6{
+        padding-top:0.5rem;
+       }
+}
+
+
+@media only screen and (max-width: 400px){
+    .profil-pics{
+        margin-left:18%;
+        margin-right:auto;
+       }
+
+       .title h1{
+        margin-left:0;
+        margin-right: 0;
+       }
+
+}
+
+@media only screen and (max-width: 380px){
+    .profil-pics{
+        margin-left:12%;
+        margin-right:auto;
+       }
+
+       .title{
+        left:-3vw;
+       }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 360px){
+    .profil-pics{
+        margin-left:15%;
+        margin-right:auto;
+       }
+
+}
