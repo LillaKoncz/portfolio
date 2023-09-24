@@ -1,0 +1,101 @@
+.seeMyWorks{
+    margin-left:8vw;
+    font-size: 4rem;
+    font-family: Passion One, sans-serif;
+    letter-spacing: 5px;
+    color:var(--fdeveloper);
+ }
+ 
+ .works-wrapper{
+     display: flex;
+     justify-self: center;
+     width:84%;
+     margin-left:8%;
+     margin-right:auto;
+     margin-top:3rem;
+     margin-bottom:5rem;
+ }
+ 
+ .works-image{
+     width: 50%
+ }
+ 
+ .works-img{
+     width:100%;
+     border-radius: 10px;
+     border: 0.1px solid rgb(221, 227, 225); 
+ }
+ 
+ .works-text{
+     width:40%;
+ }
+ 
+ .w-title{
+     padding-left: 2rem;
+     color:var(--fdeveloper);
+     font-family: Raleway, sans-serif;
+     font-weight: bold;
+     padding-top:0.2rem;
+ }
+ 
+ .w-text{
+     padding-left:2rem;
+     font-size: 1rem;
+     font-family: Raleway, sans-serif;
+ }
+ 
+ .works-demo{
+     border-radius: 6px;
+     background-color:var(--fdeveloper);
+     color:white;
+     margin-left:2rem;
+ }
+ 
+ .works-demo:hover{
+     background-color: rgb(39, 217, 158);
+ }
+ 
+ /* WEATHER VIDEO*/
+ .video-player{
+     width: 50%;
+     border-radius:10px 10px ;
+     overflow:hidden;
+ }
+ 
+ 
+ @media screen and (max-width:900px){
+     .works-wrapper{
+         flex-direction: column;
+         justify-content: center;
+     }
+ 
+     .works-image{
+         width: 100%;
+         height:50%;
+     }
+ 
+     .w-title{
+         padding-left:0.5rem;
+         padding-top:2rem;
+     }
+ 
+     .works-text{
+         width:100%;
+     }
+ 
+     .w-text{
+         padding-left:0.5rem;
+     }
+     /* WEATHER VIDEO*/
+     .video-player{
+         width: 100%;
+         border-radius:10px;
+         overflow:hidden;
+     }
+ 
+     .works-demo{
+         margin-left:0.5rem;
+     }
+ 
+     
+ }
