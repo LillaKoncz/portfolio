@@ -7,7 +7,6 @@
 }
 
 
-
 .background{
     background-image: url('../../images/homepng.png');
     background-size: cover;
@@ -92,7 +91,6 @@
 .button-works{
     display: none;
     cursor: pointer;
-    
 }
 
 

@@ -1,6 +1,7 @@
 :root{
     --boldcolor: rgb(90, 179, 151);
     --aboutTextColor: rgb(222, 215, 215);
+    --fdeveloper :rgb(33, 72, 64);
 }
 
 .about-background{
