@@ -2,8 +2,7 @@ import React from 'react'
 import './works.css'
 import kalocsa from '../../images/kalocsaiPaprika.png'
 import dogs from '../../images/dogsAdoption.png'
-import ReactPlayer from 'react-player'
-import video from '../../images/weatherVideo.mp4'
+
 
  export const Works = () => {
   return (
@@ -41,26 +40,7 @@ import video from '../../images/weatherVideo.mp4'
 
 {/* WEATHER SEARCHING - VIDEO */ }
 
-    <div className='works-wrapper'>
-    <div className='video-player'>
-      <ReactPlayer 
-        className='weather-video'
-        url ={video}
-        width="100%"
-        height='100%'
-        controls={true}
-        playing={true}
-        loop={true}/>
-    </div>
-      <div className='works-text'>
-        <h4 className='w-title'>Weather-Searching</h4>
-        <p className='w-text'>This is Weather-Search App, user can write a town and see the weather in pt.<br/>
-        <span className='bold lang'> REACT JS, Boostrap</span></p>
-        <a target='_blank' href='https://lillakoncz.github.io/weather-searching/'>
-          <button className='works-demo '>Live Demo</button></a>
-      </div>
-      
-    </div>
+    
     </>
   )
 }
