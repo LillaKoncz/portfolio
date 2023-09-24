@@ -1,5 +1,5 @@
 import React from 'react'
-import './works.css'
+/*import './works.css'*/
 import kalocsa from '../../images/kalocsaiPaprika.png'
 import dogs from '../../images/dogsAdoption.png'
 
