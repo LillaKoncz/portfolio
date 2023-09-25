@@ -298,6 +298,10 @@
         font-size: 1.4rem;
        }
 
+       .frontend-developer{
+        text-shadow: 1px 1px 1px rgba(89, 0, 100, 0.3);
+       }
+
 }
 
 @media only screen and (max-width: 385px){
@@ -307,6 +311,7 @@
        }
 
        .title{
+        padding-top:2rem;
         left:-1vw;
        }
 
@@ -320,6 +325,10 @@
     .profil-pics{
         margin-left:15%;
         margin-right:auto;
+       }
+
+       .title h1{
+        padding-top:2rem;
        }
 
 }
