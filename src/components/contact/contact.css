@@ -1,12 +1,15 @@
-
+:root{
+    --fdeveloper :rgb(33, 72, 64);
+}
 .contact-title{
     margin-left:8%;
     font-family: Passion One, sans-serif;
+    padding-top:5vh;
 }
 
 .contact-title h3{
     font-size: 2.8rem;
-    color:rgb(56, 109, 89);
+    color:white;
 }
 
 .contact-datas{
@@ -19,6 +22,7 @@
     margin-top:2rem;
     text-align: center;
     font-family: Raleway, sans-serif;
+
 }
 
 .contact-datas p{
@@ -26,12 +30,17 @@
     font-weight: bold;
     letter-spacing: 1px;
     padding-bottom:3rem;
+    color:white;
+    letter-spacing: 2px;
+    padding-left:10px;
+    padding-right: 10px;
 }
 
 
 .contact-icon-phone{
     width:40px;
     height:50px;
+    
 }
 
 .contact-icon-email{
@@ -48,5 +57,9 @@
 
 .faIcon{
     font-size: 1.5rem;
-    color:rgb(62, 140, 118);
+    color:rgb(166, 237, 217);
+}
+
+.contact-background{
+    background-color:var(--fdeveloper);
 }

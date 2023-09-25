@@ -159,11 +159,12 @@
 
    .profil-img{
     display:block;
+    
    }
 
    .profil-pics{
     position: absolute;
-    top:3vh;
+    top:5vh;
     width:400px;
     height:450px;
     margin-left:25%;
@@ -189,6 +190,7 @@
     
         .title{
             top:53vh;
+            left:17vw;
         }
 
        .title h1{
@@ -201,16 +203,18 @@
     .profil-pics{
         width:320px;
         height:370px;
-        margin-left:25%;
+        margin-left:20%;
         margin-right:auto;
        }
 
        .title{
-        top:50vh;
+        top:45vh;
+        left:13vw;
+
        }
 
        .title h1{
-        font-size: 1.7rem;
+        font-size: 1.9rem;
        }
 
         .font-face,
@@ -225,6 +229,7 @@
 
 /*New button comes in (see my works)!!-------------------------------------------------*/ 
 @media only screen and (max-width: 500px){
+    
     .profil-pics{
         width:260px;
         height:300px;
@@ -237,19 +242,11 @@
         left:10vw;
        }
 
-       .button-works{
-        display: block;
-        background-color: var(--fdeveloper);
-        color:white;
-        text-transform: uppercase;
+       .title h1{
+        font-size: 1.5rem;
        }
 
-       .button-works:hover{
-        background-color:var(--fDeveloperLight);
-        color:rgb(24, 247, 143);
-        border:2px solid var(--fdeveloper);
-        box-shadow: var(--boxShadow);
-       }
+
 
        .short-text h6{
         padding-top:0.5rem;
@@ -257,27 +254,60 @@
 }
 
 
+
+@media only screen and (max-width: 450px){
+    .profil-pics{
+        margin-left:20%;
+        margin-right:auto;
+       }
+
+       .title{
+        left:4vw;
+       }
+}
+
+
+
+
+@media only screen and (max-width: 430px){
+    .profil-pics{
+        margin-left:20%;
+        margin-right:auto;
+       }
+
+       .title{
+        left:4vw;
+       }
+}
+
+
+
 @media only screen and (max-width: 400px){
     .profil-pics{
-        margin-left:18%;
+        margin-left:14%;
         margin-right:auto;
+       }
+
+       .title{
+        left:0vw;
        }
 
        .title h1{
         margin-left:0;
         margin-right: 0;
+        font-size: 1.4rem;
        }
 
 }
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 385px){
     .profil-pics{
         margin-left:12%;
         margin-right:auto;
        }
 
        .title{
-        left:-3vw;
+        left:-1vw;
        }
 
 

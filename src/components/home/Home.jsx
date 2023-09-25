@@ -36,7 +36,7 @@ import {Nav} from '../nav/Nav'
       </div>
 
 
-      {/*<button className='button-works m-5'>See My Works</button>*/}
+      
 
       <div className='font-awesome'>
        <a href='https://www.facebook.com/profile.php?id=100091001035989' target="_blank"><FontAwesomeIcon className='social-icon font-face my-4' icon={faFacebook} /></a> 
