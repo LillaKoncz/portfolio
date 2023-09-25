@@ -251,6 +251,10 @@
        .short-text h6{
         padding-top:0.5rem;
        }
+
+       .frontend-developer{
+        text-shadow: 1px 1px 1px rgba(89, 0, 100, 0.3);
+       }
 }
 
 
