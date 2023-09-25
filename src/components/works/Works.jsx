@@ -1,6 +1,6 @@
 import React from 'react'
 import './works.css'
-import kalocsa from '../../images/kalocsaiPaprika.png'
+import coffe from '../../images/coffee.png'
 import dogs from '../../images/DogsAdoption.png'
 import ReactPlayer from 'react-player'
 import video from '../../images/weatherVideo.mp4'
@@ -14,13 +14,12 @@ import video from '../../images/weatherVideo.mp4'
 {/*KALOCSAI PAPRIKA*/}
 
     <div className='works-wrapper'>
-      <div className='works-image'><img className='works-img' src={kalocsa}/></div>
+      <div className='works-image'><img className='works-img' src={coffe}/></div>
       <div className='works-text'>
-      <h4 className='w-title'>Kalocsai Paprika</h4>
-        <p className='w-text'>Its a simple website on hungarian language
-        about a hungarian paprika business.<br/>
-        <span className='bold lang'> HTML, CSS, Javascript</span></p>
-        <a target='_blank' href='https://lillakoncz.github.io/kalocsaipaprika.github.io/kalocsaiPaprika/paprika.html'>
+      <h4 className='w-title'>Melcsi Coffe</h4>
+        <p className='w-text'>Its a Coffee-Order App.User can order coffe, and get an order-number.<br/>
+        <span className='bold lang'> REACT JS, Boostrap</span></p>
+        <a target='_blank' href='https://lillakoncz.github.io/coffe-shop/'>
           <button className='works-demo'>Live Demo</button></a>
       </div>
       
