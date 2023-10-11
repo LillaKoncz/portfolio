@@ -4,6 +4,7 @@ import coffe from '../../images/coffee.png'
 import dogs from '../../images/DogsAdoption.png'
 import ReactPlayer from 'react-player'
 import video from '../../images/weatherVideo.mp4'
+import pizza from '../../images/tonys.png'
 
 
  export const Works = () => {
@@ -11,7 +12,7 @@ import video from '../../images/weatherVideo.mp4'
     <>
     <div className='seeMyWorks' id='works'> My Works</div>
 
-{/*KALOCSAI PAPRIKA*/}
+{/*COFFE-SHOP*/}
 
     <div className='works-wrapper'>
       <div className='works-image'><img className='works-img' src={coffe}/></div>
@@ -34,6 +35,20 @@ import video from '../../images/weatherVideo.mp4'
         <p className='w-text'>This is a Dog-shelter website, where  user can see the dogs which are to adoption, and can book an appointment.<br/>
         <span className='bold lang'> REACT JS, Boostrap</span></p>
         <a target='_blank' href='https://lillakoncz.github.io/dog-adoption/'>
+          <button className='works-demo'>Live Demo</button></a>
+      </div>
+      
+    </div>
+
+  {/*PIZZA-HOUSE */}
+
+    <div className='works-wrapper'>
+      <div className='works-image'><img className='works-img' src={pizza}/></div>
+      <div className='works-text'>
+      <h4 className='w-title'>Tonys Pizzeria</h4>
+        <p className='w-text'>Its a Food-Order App.User can order food, and get an order-number.<br/>
+        <span className='bold lang'> REACT JS, Boostrap</span></p>
+        <a target='_blank' href='https://lillakoncz.github.io/pizza-house/'>
           <button className='works-demo'>Live Demo</button></a>
       </div>
       
